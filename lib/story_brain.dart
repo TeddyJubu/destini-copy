@@ -66,17 +66,17 @@ class StoryBrain {
       } else {
         _storyNumber = 3;
       }
-    }else if(_storyNumber == 5 || _storyNumber == 4 || _storyNumber==3){
+    } else if (_storyNumber == 5 || _storyNumber == 4 || _storyNumber == 3) {
       if (choiceNumber == 1) {
         _storyNumber = 0;
       }
     }
-  }//nextStory end
+  } //nextStory end
 
-  bool buttonShouldBeVisible(){
-    if(_storyNumber==0 || _storyNumber==1 || _storyNumber==2){
+  bool buttonShouldBeVisible() {
+    if (_storyNumber == 0 || _storyNumber == 1 || _storyNumber == 2) {
       return true;
-    }else{
+    } else {
       return false;
     }
   }
