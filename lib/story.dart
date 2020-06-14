@@ -1,4 +1,3 @@
-
 class Story{
   String storyTitle;
   String choice1;
